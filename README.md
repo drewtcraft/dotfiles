@@ -3,6 +3,8 @@
 ## neovim
 ### setup
 install neovim  
+install vim-plug
+install ripgrep
 
 copy init.vim  
 `cp ./init.vim ~/.config/nvim/`
