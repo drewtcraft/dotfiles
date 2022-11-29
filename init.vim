@@ -45,3 +45,5 @@ set autoindent
 set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
 
 nnoremap <Leader>e <cmd>NERDTreeToggle<cr>
+
+let NERDTreeShowHidden=1
