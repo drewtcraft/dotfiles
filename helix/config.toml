@@ -5,11 +5,15 @@ cursorline = true
 idle-timeout = 200
 rulers = [80, 120]
 mouse = true
+gutters = ["line-numbers", "spacer", "diff"]
+bufferline = "multiple"
+popup-border = "all"
+auto-pairs = false
 
 [editor.statusline]
-left = ["mode", "spinner"]
-center = ["version-control", "file-name"]
-right = ["diagnostics", "position-percentage", "file-encoding", "file-line-ending", "file-type"]
+left = ["file-modification-indicator", "file-name", "version-control"]
+center = ["spinner", "mode", "register"]
+right = ["primary-selection-length", "diagnostics", "total-line-numbers", "file-type"]
 mode.normal = "NORMAL"
 mode.insert = "INSERT"
 mode.select = "VISUAL"
@@ -18,3 +22,8 @@ mode.select = "VISUAL"
 insert = "bar"
 normal = "block"
 select = "underline"
+
+[editor.file-picker]
+hidden = false
+
+
