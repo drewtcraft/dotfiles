@@ -1,0 +1,20 @@
+theme = "gruvbox_dark_hard_custom"
+
+[editor]
+cursorline = true
+idle-timeout = 200
+rulers = [80, 120]
+mouse = true
+
+[editor.statusline]
+left = ["mode", "spinner"]
+center = ["version-control", "file-name"]
+right = ["diagnostics", "position-percentage", "file-encoding", "file-line-ending", "file-type"]
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+mode.select = "VISUAL"
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
