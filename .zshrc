@@ -2,15 +2,31 @@ plugins=(git)
 
 export EDITOR='nvim'
 
+alias gc='git commit -m'
+alias gac='git add . && git commit -m'
+alias glog='git log --pretty=format:"%h :%an| %ar - %s"'
+alias gpl='git pull'
+alias gps='git push'
+alias gr='git reset'
+alias gmc='git add . && git merge --continue'
+alias gs='git status'
+alias gco="git checkout"
+alias gconew="git checkout -b"
+alias gb="git branch"
+alias gmb='git branch | grep "\*"'
+alias ga='git add .'
+alias gskip='git commit -n -m'
+alias gaskip='git add . && git commit -n -m'
+
+# legacy
 alias status='git status'
-alias co="git checkout"
-alias conew="git checkout -b"
 alias branch="git branch"
 alias mbranch='git branch | grep "\*"'
+alias co="git checkout"
+alias conew="git checkout -b"
 alias gitac='git add . && git commit -m'
-alias glog'git log --pretty=format:"%h :%an| %ar - %s"'
 
-alias editzsh='nvim ~/.zshrc'
+alias editzsh='hx ~/.zshrc'
 alias srczsh='source ~/.zshrc'
 
 alias c='clear'
