@@ -8,6 +8,7 @@ alias glog='git log --pretty=format:"%h :%an| %ar - %s"'
 alias gpl='git pull'
 alias gps='git push'
 alias gr='git reset'
+alias gm='git merge'
 alias gmc='git add . && git merge --continue'
 alias gs='git status'
 alias gco="git checkout"
