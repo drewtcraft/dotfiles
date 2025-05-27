@@ -26,4 +26,5 @@ select = "underline"
 [editor.file-picker]
 hidden = false
 
-
+[keys.normal]
+X = ["extend_line_up", "extend_to_line_bounds"]
