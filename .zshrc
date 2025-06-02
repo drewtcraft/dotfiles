@@ -20,6 +20,7 @@ alias gskip='git commit -n -m'
 alias gaskip='git add . && git commit -n -m'
 alias gd='git diff'
 alias grs='git branch -D staging && git switch staging && git pull'
+alias ghead='git show HEAD'
 
 alias srczsh='source ~/.zshrc'
 alias editzsh='hx ~/.zshrc'
