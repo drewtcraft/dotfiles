@@ -28,4 +28,10 @@ hidden = false
 
 [keys.normal]
 X = ["extend_line_up", "extend_to_line_bounds"]
+
+# git blame
 C-b = ":echo %sh{git blame -L %{cursor_line},+1 %{buffer_name}}"
+
+# copy buffer to clipboard mac)
+C-f = ":echo %{buffer_name} | pbcopy"
+
