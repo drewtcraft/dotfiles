@@ -35,3 +35,6 @@ C-b = ":echo %sh{git blame -L %{cursor_line},+1 %{buffer_name}}"
 # copy buffer to clipboard mac)
 C-f = ":echo %{buffer_name} | pbcopy"
 
+[keys.normal."space"]
+# change colors from dark "d" to light "l"
+t = { d = ":theme gruvbox_dark_hard_custom", l = ":theme gruvbox_light_hard"}
